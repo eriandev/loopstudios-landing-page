@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Frontend Mentor | Loopstudios Landing Page</title>
+    <meta name="description" content="Challenge #6 by frontendmentor.io" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <link rel="preload" href="./fonts/Alata/alata-v2-latin-regular.woff" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="./fonts/Alata/alata-v2-latin-regular.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="./fonts/JosefinSans/josefin-sans-v16-latin-300.woff" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="./fonts/JosefinSans/josefin-sans-v16-latin-300.woff2" as="font" crossorigin="anonymous" />
+
+    <link rel="preload" href="styles.css" as="style" />
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="container">
+        <header class="navbar">
+            <nav class="navbar__content">
+                <div class="navbar__logo">
+                    <img src="./images/logo.svg" title="Logo" alt="Logo">
+                </div>
+                <div class="navbar__menu">
+                    <a href="#menu">
+                        <img src="./icons/icon-hamburger.svg" title="Open menu" alt="Open menu">
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <div id="menu" class="menu">
+            <nav class="menu__navbar">
+                <div class="menu__logo">
+                    <img src="./images/logo.svg" title="Logo" alt="Logo">
+                </div>
+                <div class="menu__close">
+                    <a href="#">
+                        <img src="./icons/icon-close.svg" title="Close menu" alt="Close menu">
+                    </a>
+                </div>
+            </nav>
+            <ul class="menu__sections">
+                <li>
+                    <a href="#">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Careers
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Support
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <section class="hero">
+            <h1 class="hero__title">Immersive experiences that deliver</h1>
+        </section>
+
+        <section class="about">
+            <img class="about__image" src="./images/mobile/image-interactive.webp" alt="Interactive">
+
+            <h2 class="about__title">The leader in interactive VR</h2>
+
+            <p class="about__description">
+                Founded in 2011, Loopstudios has been producing world-class virtual reality
+                projects for some of the best companies around the globe. Our award-winning
+                creations have transformed businesses through digital experiences that bind
+                to their brand.
+            </p>
+        </section>
+
+        <section class="creations">
+
+            <h2 class="creations__title">Our creations</h2>
+
+            <ul class="creations__grid">
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-deep-earth" src="./images/mobile/image-deep-earth.webp" alt="Deep Earth">
+                        <figcaption class="creations__figure--caption">Deep Earth</figcaption>
+                    </figure>
+                </li>
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-night-arcade" src="./images/mobile/image-night-arcade.webp" alt="Night arcade">
+                        <figcaption class="creations__figure--caption">Night arcade</figcaption>
+                    </figure>
+                </li>
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-soccer-team" src="./images/mobile/image-soccer-team.webp" alt="Soccer team VR">
+                        <figcaption class="creations__figure--caption">Soccer team VR</figcaption>
+                    </figure>
+                </li>
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-grid" src="./images/mobile/image-grid.webp" alt="The grid">
+                        <figcaption class="creations__figure--caption">The grid</figcaption>
+                    </figure>
+                </li>
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-from-above" src="./images/mobile/image-from-above.webp" alt="From up about VR">
+                        <figcaption class="creations__figure--caption">From up about VR</figcaption>
+                    </figure>
+                </li>
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-pocket-borealis" src="./images/mobile/image-pocket-borealis.webp" alt="Pocket borealis">
+                        <figcaption class="creations__figure--caption">Pocket borealis</figcaption>
+                    </figure>
+                </li>
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-curiosity" src="./images/mobile/image-curiosity.webp" alt="The curiosity">
+                        <figcaption class="creations__figure--caption">The curiosity</figcaption>
+                    </figure>
+                </li>
+                <li class="creations__item">
+                    <figure class="creations__figure">
+                        <img loading="lazy" class="creations__figure--image-fisheye" src="./images/mobile/image-fisheye.webp" alt="Make it fisheye">
+                        <figcaption class="creations__figure--caption">Make it fisheye</figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+            <button class="creations__see-all">
+                See all
+            </button>
+        </section>
+
+        <footer class="footer">
+            <img class="footer__logo" src="./images/logo.svg" title="Logo" alt="Logo">
+
+            <ul class="footer__sections">
+                <li>
+                    <a href="#">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Careers
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Events
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Support
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="footer__socials">
+                <li>
+                    <a href="#">
+                        <img src="./icons/icon-facebook.svg" title="Facebook" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/icon-twitter.svg" title="Twitter" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/icon-pinterest.svg" title="Pinterest" alt="Pinterest">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./icons/icon-instagram.svg" title="Instagram" alt="Instagram">
+                    </a>
+                </li>
+            </ul>
+
+            <span class="footer__copyright">© 2021 Loopstudios. All rights reserved.</span>
+
+            <span class="footer__attribution">
+                Challenge by <a rel="noopener noreferrer" target="_blank" href="https://www.frontendmentor.io/challenges">Frontend Mentor</a>. 
+                Coded by <a id="author" rel="noopener noreferrer" target="_blank" href="https://erianvc.dev">erianvc</a>.
+            </span>
+        </footer>
+    </main>
+</body>
+
+</html>
