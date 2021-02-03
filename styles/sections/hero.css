@@ -1,0 +1,8 @@
+.hero {
+    @apply grid min-h-screen px-6 bg-center bg-no-repeat bg-cover place-items-center sm:px-12;
+    background-image: url('./images/mobile/image-hero.webp');
+}
+
+.hero__title {
+    @apply p-4 mx-auto text-5xl font-light text-white uppercase border-2 border-white font-josefinSans;
+}

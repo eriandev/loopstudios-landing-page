@@ -1,0 +1,16 @@
+.navbar {
+    @apply absolute top-0 z-20 w-full mx-auto bg-transparent;
+}
+
+.navbar__content {
+    @apply flex flex-wrap w-full px-6 mt-8 place-items-center sm:px-12;
+}
+
+.navbar__logo,
+.navbar__menu {
+    @apply w-1/2;
+}
+
+.navbar__menu img {
+    @apply h-5 ml-auto cursor-pointer;
+}

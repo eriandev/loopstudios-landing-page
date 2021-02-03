@@ -1,0 +1,17 @@
+/* Base */
+@import './base/reset.css';
+@import './base/typography.css';
+@import 'tailwindcss/components';
+
+
+/* Utils */
+@import 'tailwindcss/utilities';
+
+
+/* Sections */
+@import './sections/navbar.css';
+@import './sections/menu.css';
+@import './sections/hero.css';
+@import './sections/about.css';
+@import './sections/creations.css';
+@import './sections/footer.css';
