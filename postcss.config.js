@@ -1,16 +1,17 @@
-const mode = process.env.NODE_ENV
-const dev = mode === 'development'
+const tailwindcss = require('tailwindcss')
+const postcssImport = require('postcss-import')
+const cssnano = require('cssnano')({
+  preset: ['default', {
+    discardComments: {
+      removeAll: true,
+    },
+  }],
+})
 
 module.exports = {
   plugins: [
-    require('postcss-import'),
-    require('tailwindcss'),
-    !dev && require('cssnano')({
-      preset: ['default', {
-        discardComments: {
-          removeAll: true,
-        },
-      }],
-    })
+    postcssImport(),
+    tailwindcss('./tailwind.config.js'),
+    ...(process.env.NODE_ENV === 'production' ? [cssnano] : []),
   ]
 }

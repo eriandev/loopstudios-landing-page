@@ -1,7 +1,7 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  purge: ['./**/*.html'],
+  content: ['./public/index.html'],
   corePlugins: {
     container: false,
   },
@@ -13,8 +13,8 @@ module.exports = {
       xl: '1280px',
     },
     fontFamily: {
-      alata: ['Alata', ...defaultTheme.fontFamily.mono],
-      josefinSans: ['Josefin Sans', ...defaultTheme.fontFamily.sans],
+      alata: ['Alata', ...fontFamily.mono],
+      josefinSans: ['Josefin Sans', ...fontFamily.sans],
     },
     colors: {
       'dark-gray': 'hsl(0, 0%, 55%)',
