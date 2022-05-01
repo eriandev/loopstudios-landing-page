@@ -1,17 +1,17 @@
 @import 'tailwindcss/base';
 
 :root {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 body {
-    @apply relative w-full min-h-screen bg-dark-gray;
+  @apply relative w-full min-h-screen bg-dark-gray;
 }
 
 main {
-    @apply relative w-full min-h-screen bg-white;
+  @apply relative w-full min-h-screen bg-white;
 }
 
 .container {
-    @apply max-w-screen-sm mx-auto;
+  @apply max-w-screen-sm mx-auto;
 }

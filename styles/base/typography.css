@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'Alata';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local(''),
-        url('./fonts/Alata/alata-v2-latin-regular.woff2') format('woff2'),
-        url('./fonts/Alata/alata-v2-latin-regular.woff') format('woff');
+  font-family: 'Alata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+      url('./fonts/Alata/alata-v2-latin-regular.woff2') format('woff2'),
+      url('./fonts/Alata/alata-v2-latin-regular.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: local(''),
-        url('./fonts/JosefinSans/josefin-sans-v16-latin-300.woff2') format('woff2'),
-        url('./fonts/JosefinSans/josefin-sans-v16-latin-300.woff') format('woff');
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+      url('./fonts/JosefinSans/josefin-sans-v16-latin-300.woff2') format('woff2'),
+      url('./fonts/JosefinSans/josefin-sans-v16-latin-300.woff') format('woff');
 }

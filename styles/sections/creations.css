@@ -1,38 +1,38 @@
 .creations {
-    @apply px-6 pt-16 pb-32 sm:px-12;
+  @apply px-6 pt-16 pb-32 sm:px-12;
 }
 
 .creations__title {
-    @apply mx-auto mt-8 text-4xl font-light text-center uppercase font-josefinSans;
+  @apply mx-auto mt-8 text-4xl font-light text-center uppercase font-josefinSans;
 }
 
 .creations__grid {
-    @apply grid mt-8 gap-y-8 sm:gap-y-10;
+  @apply grid mt-8 gap-y-8 sm:gap-y-10;
 }
 
 .creations__figure {
-    @apply relative;
+  @apply relative;
 }
 
 .creations__figure::after {
-    @apply absolute top-0 left-0 w-full h-full;
-    content: "";
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.65), transparent);
+  content: "";
+  @apply absolute top-0 left-0 w-full h-full;
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.65), transparent);
 }
 
 .creations__figure--caption {
-    @apply absolute z-20 text-2xl text-white uppercase font-josefinSans;
-    max-width: 8rem;
-    bottom: 1rem;
-    left: 1rem;
+  @apply absolute z-20 text-2xl text-white uppercase font-josefinSans;
+  max-width: 8rem;
+  bottom: 1rem;
+  left: 1rem;
 }
 
 .creations__see-all {
-    @apply block px-16 py-4 mx-auto mt-16 text-xl font-semibold uppercase border-2 border-black font-alata focus:outline-none;
-    -webkit-tap-highlight-color: transparent;
-    letter-spacing: 0.5em;
+  @apply block px-16 py-4 mx-auto mt-16 text-xl font-semibold uppercase border-2 border-black font-alata focus:outline-none;
+  -webkit-tap-highlight-color: transparent;
+  letter-spacing: 0.5em;
 }
 
 .creations__see-all:active {
-    @apply text-white bg-black;
+  @apply text-white bg-black;
 }

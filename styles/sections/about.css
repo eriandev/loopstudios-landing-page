@@ -1,15 +1,15 @@
 .about {
-    @apply px-6 pt-32 sm:px-12;
+  @apply px-6 pt-32 sm:px-12;
 }
 
 .about__image {
-    @apply mx-auto;
+  @apply mx-auto;
 }
 
 .about__title {
-    @apply mx-auto mt-8 text-4xl font-light text-center uppercase font-josefinSans;
+  @apply mx-auto mt-8 text-4xl font-light text-center uppercase font-josefinSans;
 }
 
 .about__description {
-    @apply mt-8 text-center text-dark-gray font-alata;
+  @apply mt-8 text-center text-dark-gray font-alata;
 }
